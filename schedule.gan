@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2018-01-21" view-index="0" gantt-divider-location="1238" resource-divider-location="300" version="2.8.1" locale="en_US">
+    <description/>
+    <view zooming-state="default:7" id="gantt-chart">
+        <field id="tpd3" name="Name" width="736" order="0"/>
+        <field id="tpd4" name="Begin date" width="228" order="1"/>
+        <field id="tpd5" name="End date" width="270" order="2"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="210" order="0"/>
+        <field id="1" name="Default role" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="RASD" color="#8cb6ce" meeting="false" start="2016-10-14" duration="36" complete="0" expand="true">
+            <task id="6" name="Meeting with employers" color="#8cb6ce" meeting="false" start="2016-10-14" duration="1" complete="0" expand="true">
+                <depend id="5" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="5" name="Identification of stakeholders" color="#8cb6ce" meeting="false" start="2016-10-17" duration="2" complete="0" expand="true">
+                <depend id="14" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="14" name="Meeting with other stakholders" color="#8cb6ce" meeting="false" start="2016-10-19" duration="2" complete="0" expand="true">
+                <depend id="7" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="7" name="Definition of main functionalities" color="#8cb6ce" meeting="false" start="2016-10-21" duration="1" complete="0" expand="true">
+                <depend id="8" type="2" difference="0" hardness="Strong"/>
+                <depend id="9" type="2" difference="0" hardness="Strong"/>
+                <depend id="10" type="2" difference="0" hardness="Strong"/>
+                <depend id="11" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="8" name="Initial requirement draft" color="#8cb6ce" meeting="false" start="2016-10-24" duration="5" complete="0" expand="true">
+                <depend id="12" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="9" name="Initial assumptions" color="#8cb6ce" meeting="false" start="2016-10-24" duration="5" complete="0" expand="true">
+                <depend id="12" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="10" name="Preliminar activity diagrams" color="#8cb6ce" meeting="false" start="2016-10-24" duration="5" complete="0" expand="true">
+                <depend id="12" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="11" name="Use cases Identification" color="#8cb6ce" meeting="false" start="2016-10-24" duration="5" complete="0" expand="true">
+                <depend id="12" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="12" name="II meeting with employers" color="#8cb6ce" meeting="false" start="2016-10-31" duration="2" complete="0" expand="true">
+                <depend id="13" type="2" difference="0" hardness="Strong"/>
+                <depend id="15" type="2" difference="0" hardness="Strong"/>
+                <depend id="16" type="2" difference="0" hardness="Strong"/>
+                <depend id="17" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="13" name="Refinement of functionalities" color="#8cb6ce" meeting="false" start="2016-11-02" duration="3" complete="0" expand="true">
+                <depend id="18" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="15" name="Refinement of assumptions" color="#8cb6ce" meeting="false" start="2016-11-02" duration="3" complete="0" expand="true">
+                <depend id="18" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="16" name="Refinements of requirements" color="#8cb6ce" meeting="false" start="2016-11-02" duration="3" complete="0" expand="true">
+                <depend id="18" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="17" name="Refinement of activity diagrams" color="#8cb6ce" meeting="false" start="2016-11-02" duration="3" complete="0" expand="true">
+                <depend id="18" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="18" name="III meeting with stakeholders" meeting="false" start="2016-11-07" duration="1" complete="0" expand="true">
+                <depend id="19" type="2" difference="0" hardness="Strong"/>
+                <depend id="20" type="2" difference="0" hardness="Strong"/>
+                <depend id="21" type="2" difference="0" hardness="Strong"/>
+                <depend id="22" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="19" name="Final Requirements" meeting="false" start="2016-11-08" duration="5" complete="0" expand="true">
+                <depend id="23" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="20" name="Final assumptions" color="#8cb6ce" meeting="false" start="2016-11-08" duration="5" complete="0" expand="true">
+                <depend id="23" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="21" name="Final activity diagrams" color="#8cb6ce" meeting="false" start="2016-11-08" duration="5" complete="0" expand="true">
+                <depend id="23" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="22" name="Initial schedule, cost and effort estimation" meeting="false" start="2016-11-08" duration="5" complete="0" expand="true">
+                <depend id="23" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="23" name="IV Meeting with employers" meeting="false" start="2016-11-15" duration="1" complete="0" expand="true">
+                <depend id="24" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="24" name="Revision" meeting="false" start="2016-11-16" duration="8" complete="0" expand="true">
+                <depend id="25" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="25" name="V meeting with employers" meeting="false" start="2016-11-28" duration="1" complete="0" expand="true">
+                <depend id="26" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="26" name="Final refinements" meeting="false" start="2016-11-29" duration="2" complete="0" expand="true">
+                <depend id="27" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="27" name="RASD final redaction" color="#8cb6ce" meeting="false" start="2016-12-01" duration="2" complete="0" expand="true">
+                <depend id="29" type="2" difference="0" hardness="Strong"/>
+                <depend id="37" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="28" name="DD" meeting="false" start="2016-12-05" duration="61" complete="0" expand="true">
+            <task id="29" name="High level draft of architecture" color="#8cb6ce" meeting="false" start="2016-12-05" duration="3" complete="0" expand="true">
+                <depend id="31" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="31" name="Identification of components" meeting="false" start="2016-12-08" duration="2" complete="0" expand="true">
+                <depend id="32" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="37" name="UI draft" meeting="false" start="2016-12-05" duration="5" complete="0" expand="true">
+                <depend id="32" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="32" name="Meeting with stakeholders" meeting="false" start="2016-12-12" duration="1" complete="0" expand="true">
+                <depend id="33" type="2" difference="0" hardness="Strong"/>
+                <depend id="36" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="33" name="Revision of architecture" color="#8cb6ce" meeting="false" start="2016-12-13" duration="2" complete="0" expand="true">
+                <depend id="34" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="34" name="Refinement of components and identification of subcomponents" meeting="false" start="2016-12-15" duration="2" complete="0" expand="true">
+                <depend id="35" type="2" difference="0" hardness="Strong"/>
+                <depend id="38" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="35" name="First draft of component interaction" meeting="false" start="2016-12-19" duration="5" complete="0" expand="true">
+                <depend id="39" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="1600" name="Christmas Time" meeting="false" start="2016-12-26" duration="10" complete="0" expand="true">
+                <depend id="36" type="2" difference="0" hardness="Strong"/>
+                <depend id="38" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="36" name="UI revision" meeting="false" start="2017-01-09" duration="5" complete="0" expand="true">
+                <depend id="39" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="38" name="Initial Algorithm design" meeting="false" start="2017-01-09" duration="5" complete="0" expand="true">
+                <depend id="39" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="39" name="Meeting with stakeholders" meeting="false" start="2017-01-16" duration="1" complete="0" expand="true">
+                <depend id="40" type="2" difference="0" hardness="Strong"/>
+                <depend id="41" type="2" difference="0" hardness="Strong"/>
+                <depend id="43" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="40" name="UI refinement" color="#8cb6ce" meeting="false" start="2017-01-17" duration="4" complete="0" expand="true">
+                <depend id="42" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="41" name="Algorithm design refinement" meeting="false" start="2017-01-17" duration="5" complete="0" expand="true">
+                <depend id="42" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="43" name="Definition of component interfaces" meeting="false" start="2017-01-17" duration="5" complete="0" expand="true">
+                <depend id="42" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="42" name="Meeting with stakeholders" meeting="false" start="2017-01-24" duration="1" complete="0" expand="true">
+                <depend id="44" type="2" difference="0" hardness="Strong"/>
+                <depend id="45" type="2" difference="0" hardness="Strong"/>
+                <depend id="46" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="44" name="Final UI mockups" meeting="false" start="2017-01-25" duration="3" complete="0" expand="true">
+                <depend id="47" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="45" name="Final component interfces" meeting="false" start="2017-01-25" duration="3" complete="0" expand="true">
+                <depend id="47" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="46" name="Final algorithm design" meeting="false" start="2017-01-25" duration="3" complete="0" expand="true">
+                <depend id="47" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="47" name="Meeting with stakeholders" meeting="false" start="2017-01-30" duration="1" complete="0" expand="true">
+                <depend id="48" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="48" name="Final refinements" meeting="false" start="2017-01-31" duration="2" complete="0" expand="true">
+                <depend id="49" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="49" name="DD fina redaction" color="#8cb6ce" meeting="false" start="2017-02-02" duration="7" complete="0" expand="true">
+                <depend id="51" type="2" difference="0" hardness="Strong"/>
+                <depend id="52" type="2" difference="0" hardness="Strong"/>
+                <depend id="54" type="2" difference="0" hardness="Strong"/>
+                <depend id="55" type="2" difference="0" hardness="Strong"/>
+                <depend id="971" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="971" name="Extra days" color="#8cb6ce" meeting="false" start="2017-02-13" duration="11" complete="0" expand="true">
+                <depend id="51" type="2" difference="0" hardness="Strong"/>
+                <depend id="52" type="2" difference="0" hardness="Strong"/>
+                <depend id="54" type="2" difference="0" hardness="Strong"/>
+                <depend id="55" type="2" difference="0" hardness="Strong"/>
+                <depend id="56" type="2" difference="0" hardness="Strong"/>
+                <depend id="63" type="2" difference="0" hardness="Strong"/>
+                <depend id="65" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="50" name="DEVELOPMENT" meeting="false" start="2017-02-28" duration="447" complete="0" expand="true">
+            <task id="51" name="Subcomponent development" color="#8cb6ce" meeting="false" start="2017-02-28" duration="90" complete="0" expand="true">
+                <depend id="57" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="52" name="External Component acquisition and study" meeting="false" start="2017-02-28" duration="21" complete="0" expand="true"/>
+            <task id="54" name="Code inspection" color="#8cb6ce" meeting="false" start="2017-02-28" duration="84" complete="0" expand="true"/>
+            <task id="55" name="Unit tests" color="#8cb6ce" meeting="false" start="2017-02-28" duration="84" complete="0" expand="true"/>
+            <task id="56" name="Subcomponent integration" color="#8cb6ce" meeting="false" start="2017-02-28" duration="74" complete="0" expand="true">
+                <depend id="57" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="57" name="Component development" color="#8cb6ce" meeting="false" start="2017-07-04" duration="50" complete="0" expand="true">
+                <depend id="58" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="58" name="Component integration" meeting="false" start="2017-09-12" duration="11" complete="0" expand="true">
+                <depend id="59" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="59" name="Integration Testing" color="#8cb6ce" meeting="false" start="2017-09-27" duration="10" complete="0" expand="true">
+                <depend id="60" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="60" name="System Testing" color="#8cb6ce" meeting="false" start="2017-10-11" duration="30" complete="0" expand="true">
+                <depend id="61" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="61" name="First internal demonstration" meeting="false" start="2017-11-22" duration="1" complete="0" expand="true">
+                <depend id="62" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="62" name="Refinements" color="#8cb6ce" meeting="false" start="2017-11-23" duration="10" complete="0" expand="true">
+                <depend id="63" type="2" difference="0" hardness="Strong"/>
+                <depend id="65" type="2" difference="0" hardness="Strong"/>
+                <depend id="66" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="63" name="Apps development" color="#8cb6ce" meeting="false" start="2017-12-07" duration="109" complete="0" expand="true">
+                <depend id="65" type="2" difference="0" hardness="Strong"/>
+                <depend id="66" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="65" name="Browser application development" color="#8cb6ce" meeting="false" start="2018-05-09" duration="109" complete="0" expand="true">
+                <depend id="66" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="66" name="Second internal demontration" meeting="false" start="2018-10-09" duration="1" complete="0" expand="true">
+                <depend id="67" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="67" name="First demontration to stakeholders" meeting="false" start="2018-10-10" duration="1" complete="0" expand="true">
+                <depend id="100" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="100" name="Refinements" color="#8cb6ce" meeting="false" start="2018-10-11" duration="9" complete="0" expand="true">
+                <depend id="68" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="68" name="Third internal demonstration" meeting="false" start="2018-10-24" duration="1" complete="0" expand="true">
+                <depend id="69" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="69" name="Second demonstration to stakeholders" meeting="false" start="2018-10-25" duration="1" complete="0" expand="true">
+                <depend id="70" type="2" difference="0" hardness="Strong"/>
+                <depend id="72" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="70" name="Final refinements" meeting="false" start="2018-10-26" duration="7" complete="0" expand="true">
+                <depend id="71" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="71" name="Final internal demonstration" meeting="false" start="2018-11-06" duration="1" complete="0" expand="true">
+                <depend id="75" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="72" name="User manual redaction" color="#8cb6ce" meeting="false" start="2018-10-26" duration="7" complete="0" expand="true">
+                <depend id="75" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="75" name="First Release" color="#8cb6ce" meeting="false" start="2018-11-07" duration="1" complete="0" expand="true">
+                <depend id="76" type="2" difference="0" hardness="Strong"/>
+                <depend id="78" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="76" name="Extra days" meeting="false" start="2018-11-08" duration="5" complete="0" expand="true">
+                <depend id="77" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="77" name="DEPLOYMENT" color="#000000" meeting="false" start="2018-11-15" duration="109" complete="0" expand="true">
+            <task id="78" name="System deployement" color="#8cb6ce" meeting="false" start="2018-11-15" duration="46" complete="0" expand="true">
+                <depend id="79" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="79" name="Operators training" color="#8cb6ce" meeting="false" start="2019-01-18" duration="20" complete="0" expand="true">
+                <depend id="80" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="80" name="Final meeting with employers" meeting="false" start="2019-02-15" duration="1" complete="0" expand="true">
+                <depend id="81" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="81" name="Final adjustements" meeting="false" start="2019-02-18" duration="42" complete="0" expand="true">
+                <depend id="83" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="82" name="START-UP" meeting="false" start="2019-04-17" duration="76" complete="0" expand="true">
+            <task id="83" name="System first start" meeting="false" start="2019-04-17" duration="1" complete="0" expand="true">
+                <depend id="84" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="84" name="Real life simulation" color="#8cb6ce" meeting="false" start="2019-04-18" duration="30" complete="0" expand="true">
+                <depend id="85" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="85" name="Main updates and checks" color="#8cb6ce" meeting="false" start="2019-05-30" duration="45" complete="0" expand="true"/>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
